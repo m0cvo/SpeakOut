@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:SpeakOut"
         mc:Ignorable="d"
         Title="SpeakOut" Height="450" Width="800">
-    <Grid Background="#FF2ED8DC" Margin="10" Initialized="Grid_Initialized">
+    <Grid Margin="10" Initialized="Grid_Initialized" Background="#FF2ED8DC">
         <Label x:Name="DateLab" Content="h" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14"/>
         <Label Content="Please enter your name: " HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" FontSize="14"/>
         <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="172,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" FontSize="14"/>
         <Button x:Name="EnterBtn" Content="Enter" HorizontalAlignment="Left" Margin="488,68,0,0" VerticalAlignment="Top" FontSize="14" Width="100" Click="EnterBtn_Click"/>
         <Button x:Name="ExitBtn" Content="Exit" HorizontalAlignment="Left" Margin="488,314,0,0" VerticalAlignment="Top" Width="100" FontSize="14" Click="ExitBtn_Click"/>
+        
+
+
     </Grid>
 </Window>
