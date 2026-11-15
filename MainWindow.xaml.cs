@@ -50,6 +50,9 @@ namespace SpeakOut
             }
         }
 
-        
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
